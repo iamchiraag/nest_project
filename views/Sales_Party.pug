@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Party</title>
+style
+
+        include ../static/style.css
+</head>
+
+<body>
+  
+
+
+   
+    <nav>
+         <ul>
+            <li><a href="/">Category</a></li>
+            <li><a href="/product">Product</a></li>
+            <li><a href="/purchase">Purchase</a></li>
+            <li><a href="/sales">Sales</a></li>
+            <li><a href="/account">Account</a></li>
+         </ul>
+    </nav>
+
+    <h2>Sales Party</h2>
+    
+    <form action="/sparty/create" method="post" >
+        <input type="text" name="Party_name" id="Party_name" placeholder="Enter Sales Party Name">
+        <input type="text" name="Party_number" id="Party_number" placeholder="Enter Sales Party Number">
+        <input type="text" name="opening_account" id="opening_account" placeholder="Enter Sales Opening Account">
+        //- <input type="text" name="sales_price" id="sales_price" placeholder="Enter Product Sales Price">
+        //- <input type="text" name="opening_stock" id="opening_stock" placeholder="Enter Opening Stock">
+        //- <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+        //- <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter your desc"></textarea>
+        //- <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you.."></textarea>
+        <button class="btn">Submit</button>
+    </form>
+</body>
+
+</html>

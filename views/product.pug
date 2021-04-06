@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+style
+
+        include ../static/style.css
+</head>
+
+<body>
+  
+
+
+   
+    <nav>
+         <ul>
+            <li><a href="/">Category</a></li>
+            <li><a href="/product">Product</a></li>
+            <li><a href="/purchase">Purchase</a></li>
+            <li><a href="/sales">Sales</a></li>
+            <li><a href="/account">Account</a></li>
+         </ul>
+    </nav>
+
+    <a href="/category/all" id="porder"> Category IDs</a>
+    <h2>Product</h2>
+    
+    
+    <form action="/product/create" method="post" >
+        <input type="text" name="catId" id="catId" placeholder="Enter Category ID from above">
+        <input type="text" name="prod_name" id="prod_name" placeholder="Enter Product Name">
+        <input type="text" name="prod_des" id="prod_des" placeholder="Enter Product Description">
+        <input type="text" name="purc_price" id="purc_price" placeholder="Enter Product purchase Price">
+        <input type="text" name="sales_price" id="sales_price" placeholder="Enter Product Sales Price">
+        <input type="text" name="opening_stock" id="opening_stock" placeholder="Enter Opening Stock">
+        //- <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+        //- <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter your desc"></textarea>
+        //- <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you.."></textarea>
+        <button class="btn">Submit</button>
+    </form>
+    <a href="/product/all" id="porder"> All Products</a>
+
+
+</body>
+
+</html>
