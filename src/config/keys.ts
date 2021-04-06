@@ -1,3 +1,3 @@
 export default {
-  mongoURI: 'mongodb+srv://user:chirag123@cluster0.jefqo.mongodb.net/Stockandinventory?retryWrites=true&w=majority',
+  mongoURI: 'mongodb+srv://user:<password>@cluster0.jefqo.mongodb.net/Stockandinventory?retryWrites=true&w=majority',
 };
